@@ -1,0 +1,70 @@
+﻿@page "/"
+@using Basketball_CA3_EAD.Classes
+@inject HttpClient Http
+
+
+<h3>Basketball Player</h3>
+<h3>@strfeedback</h3>
+
+
+<div class="col col-sm" style="border-color:black; border-radius:10px">
+    <label for="player">Player</label>
+    <input id="player" @bind="player" />
+    <button class="btn-outline-warning" @onclick="ButtononClick">Search</button>
+
+</div>
+<br />
+
+@if (found)
+{
+    <div class="col-sm border rounded" style="border-color:darkgray; background-color:aqua">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>City</th>
+                    <th>Divison</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Player p in data.data)
+                {
+                    <tr>
+                        <td>@p.first_name @p.last_name</td>
+                        <td>@p.position</td>
+                        <td>@p.team.full_name</td>
+                        <td>@p.team.city</td>
+                        <td>@p.team.division</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+@strfeedback
+
+
+@code {
+    string strfeedback;
+    private string player;
+    private bool found;
+
+    private Player data;
+
+    private async Task ButtononClick()
+    {
+        try
+        {
+            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + player);
+            found = true;
+            strfeedback = String.Empty;
+        }
+        catch (Exception e)
+        {
+            found = false;
+            strfeedback = e.Message;
+        }
+    }
+}
