@@ -7,7 +7,6 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "GridMvc.dll": "sha256-Rnm5VmGE61nDfA+SrlLvKdqgDIRuVAHCEkgz\/7U1GUo=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-ktaWu1p6pD2yy7T\/20KVYU7oihmpYm3jrPw4QHb7J+k=",
       "Microsoft.AspNetCore.Components.dll": "sha256-alrtyx++CQU1VO\/6akeZFBPsYgrGGm+Z5ax9\/kaPM3k=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-tr1KtXqIVmQYhG+jn6wsF6Jx7IlPblELW1fqJ5EY2XM=",
@@ -30,14 +29,11 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-f2PgoftqEkKRuuiAk6S1MHygOuqZBHzB0HOB3vR93TU=",
       "Microsoft.JSInterop.dll": "sha256-2U21ELz08tKryAM9mMlyuFaZZyvZAS03M1ZyL\/T\/YyA=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-yqSzPJFI4ilEEeghuXNKtT9syg7UPckEK7mF53UyxM4=",
-      "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "Newtonsoft.Json.dll": "sha256-mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=",
       "Syncfusion.Blazor.dll": "sha256-jk4phOZ7EVLvfuV2XXyqnUrEdEnGlYJoU1ug71uiZL8=",
-      "Syncfusion.Data.WPF.dll": "sha256-qmMuLsjC3zdYXkkE0Sg9VAq9fslPJHfyQaTe8igJgrc=",
       "Syncfusion.ExcelExport.Net.dll": "sha256-FXJQrSCehAujFrSckpkh5odl\/NqI44kSDMZ7QLt7CW8=",
       "Syncfusion.Licensing.dll": "sha256-qCqQcm0ufOl4M9SrwGeTOX6MNx\/LivvwjQp2jFOw+GM=",
       "Syncfusion.PdfExport.Net.dll": "sha256-0jkLWW39rQLGIRvIVqVb\/hNsQeyL+kK6EmlhDUKQtTk=",
-      "Syncfusion.SfGrid.WPF.dll": "sha256-7gnzN4x0vHXjZtTkR\/5yJ555NTrJpyUpDp52ndS8qlU=",
-      "Syncfusion.Shared.WPF.dll": "sha256-oH9io8NCuEsJZ5Ri87yxpuopgdmERgVVKN2JbqGQ5cs=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
       "Microsoft.CSharp.dll": "sha256-J3xEnfK9Stuxsk3ysfAkwm7tlSZzs8rytHhodu+3aA0=",
       "Microsoft.VisualBasic.Core.dll": "sha256-6gJT+FVMmaF5o4CyPAnHcWjWVtFMSdJke\/+1seKS1Y0=",
@@ -204,11 +200,11 @@
       "mscorlib.dll": "sha256-heWnofXFSc\/TfAxrWpjQxeuS+nlIOs9YycfI2QGXGM8=",
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
-      "x00153302 CA3 EAD Blazor.dll": "sha256-ARiJkt5OuxRil3Y+Cd\/KCTZ5IEfUIPUToBPGTBFzTEI="
+      "x00153302 CA3 EAD Blazor.dll": "sha256-5c6kKPUNJwRlYSbt3dKG4fCjggEUlXGBacxypyGv++0="
     },
     "lazyAssembly": null,
     "pdb": {
-      "x00153302 CA3 EAD Blazor.pdb": "sha256-ig4pEXipE0G7\/USWCYRUkGypuTjRTQQxF5SOaJ\/\/ZvU="
+      "x00153302 CA3 EAD Blazor.pdb": "sha256-Yjf+udVF2EO11tc7ofBZ9qrJLEdvgJV0Z7MD8TjgPyo="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",

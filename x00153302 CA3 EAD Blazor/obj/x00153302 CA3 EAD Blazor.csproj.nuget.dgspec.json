@@ -46,10 +46,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Grid.Mvc": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -59,15 +55,7 @@
               "target": "Package",
               "version": "[5.0.11, )"
             },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
             "Syncfusion.Blazor": {
-              "target": "Package",
-              "version": "[19.3.0.57, )"
-            },
-            "Syncfusion.SfGrid.WPF": {
               "target": "Package",
               "version": "[19.3.0.57, )"
             },
