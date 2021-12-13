@@ -23,6 +23,7 @@ namespace Basketball_CA3_EAD.Classes
         public Team team { get; set; }
         public int? weight_pounds { get; set; }
         public List<Player> data { get; set; }
+        public Player pplayer { get; set; }
     }
 
     public class Datum

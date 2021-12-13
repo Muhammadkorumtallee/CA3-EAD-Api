@@ -154,9 +154,6 @@ using Basketball_CA3_EAD.Classes;
 
         season = season;
 
-        Console.WriteLine(getnameandid);
-        Console.WriteLine(id);
-
         try
         {
             statsdata = await Http.GetFromJsonAsync<Root>("https://www.balldontlie.io/api/v1/season_averages?season=" + season + "&player_ids[]=" + id);
@@ -168,7 +165,6 @@ using Basketball_CA3_EAD.Classes;
             foundstats = false;
             strfeedback = e.Message;
         }
-        Console.WriteLine(statsdata);
     }
 
 #line default
