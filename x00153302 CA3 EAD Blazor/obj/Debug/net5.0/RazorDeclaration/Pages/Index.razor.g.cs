@@ -83,8 +83,22 @@ using x00153302_CA3_EAD_Blazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\_Imports.razor"
+using Syncfusion.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Index.razor"
 using Basketball_CA3_EAD.Classes;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Index.razor"
+using Syncfusion.Blazor.Grids;
 
 #line default
 #line hidden
@@ -98,19 +112,20 @@ using Basketball_CA3_EAD.Classes;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Index.razor"
+#line 38 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Index.razor"
        
     string strfeedback;
-    private string player;
     private bool found;
 
     private Player data;
+    //paging
+    string[] paging = new string[] { "All", "5", "10", "15", "20" };
 
-    private async Task ButtononClick()
+    protected override async Task OnInitializedAsync()
     {
         try
         {
-            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + player);
+            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players");
             found = true;
             strfeedback = String.Empty;
         }

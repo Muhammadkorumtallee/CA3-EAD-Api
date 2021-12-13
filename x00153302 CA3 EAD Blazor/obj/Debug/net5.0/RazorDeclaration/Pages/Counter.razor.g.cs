@@ -82,6 +82,41 @@ using x00153302_CA3_EAD_Blazor.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\_Imports.razor"
+using Syncfusion.Blazor.Grids;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\_Imports.razor"
+using Syncfusion.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Counter.razor"
+using System.Runtime.Serialization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Counter.razor"
+using Basketball_CA3_EAD.Classes;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Counter.razor"
+using Newtonsoft.Json;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,18 +126,69 @@ using x00153302_CA3_EAD_Blazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Counter.razor"
+#line 86 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\Pages\Counter.razor"
        
-    private int currentCount = 0;
+    string strfeedback;
+    private string player;
+    private bool found;
 
-    private void IncrementCount()
+    private Player data;
+
+    private async Task ButtononClick()
     {
-        currentCount++;
+        try
+        {
+            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + player);
+            found = true;
+            strfeedback = String.Empty;
+        }
+        catch (Exception e)
+        {
+            found = false;
+            strfeedback = e.Message;
+        }
+    }
+
+    private Root root;
+    private Player getnameandid;
+    private string nameofplayer;
+    private string season;
+    int id;
+    private Root statsdata;
+    private bool foundstats;
+
+    private async Task StatsButton()
+    {
+        getnameandid = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + nameofplayer);
+
+        foreach (Player pl in getnameandid.data)
+        {
+            id = pl.id;
+        }
+
+        season = season;
+
+        Console.WriteLine(getnameandid);
+        Console.WriteLine(id);
+
+        try
+        {
+            statsdata = await Http.GetFromJsonAsync<Root>("https://www.balldontlie.io/api/v1/season_averages?season=" + season + "&player_ids[]=" + id);
+            foundstats = true;
+            strfeedback = String.Empty;
+        }
+        catch (Exception e)
+        {
+            foundstats = false;
+            strfeedback = e.Message;
+        }
+        Console.WriteLine(statsdata);
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

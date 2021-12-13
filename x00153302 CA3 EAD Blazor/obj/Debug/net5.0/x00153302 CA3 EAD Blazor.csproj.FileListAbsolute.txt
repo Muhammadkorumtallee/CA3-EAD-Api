@@ -8,6 +8,7 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bi
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\x00153302 CA3 EAD Blazor.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\x00153302 CA3 EAD Blazor.pdb
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\GridMvc.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -30,6 +31,14 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bi
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Blazor.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Data.WPF.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.ExcelExport.Net.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Licensing.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.PdfExport.Net.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.SfGrid.WPF.dll.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Shared.WPF.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
@@ -203,6 +212,7 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bi
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.11.js.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\GridMvc.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
@@ -225,6 +235,14 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bi
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Blazor.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Data.WPF.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.ExcelExport.Net.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Licensing.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.PdfExport.Net.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.SfGrid.WPF.dll
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Shared.WPF.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
@@ -398,7 +416,6 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bi
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.11.js
-C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\x00153302 CA3 EAD Blazor.csproj.AssemblyReference.cache
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\x00153302 CA3 EAD Blazor.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\x00153302 CA3 EAD Blazor.AssemblyInfoInputs.cache
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\x00153302 CA3 EAD Blazor.AssemblyInfo.cs
@@ -426,6 +443,7 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\ob
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\0BU+gPKN.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\ZFXhlgGZ.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\pcpO+94d.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\JgcIB28j.gz
@@ -448,6 +466,14 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\ob
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\hlJQRlyG.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\SBwcNiF+.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\kceOXodG.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\OPd9JmF6.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\4UwMyDJc.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\OEdF4c5+.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\rpHo89EW.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\qLSUJhiU.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\G98VV4sd.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\DroNBbGU.gz
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\KMKkH5aX.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\WoCjhwHj.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\X3vHMhCO.gz
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\build-gz\He+dxAFi.gz
@@ -633,3 +659,4 @@ C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\ob
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\x00153302 CA3 EAD Blazor.pdb
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\service-worker-assets.js
+C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\obj\Debug\net5.0\x00153302 CA3 EAD Blazor.csproj.AssemblyReference.cache

@@ -82,6 +82,20 @@ using x00153302_CA3_EAD_Blazor.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\_Imports.razor"
+using Syncfusion.Blazor.Grids;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\shuai\source\repos\x00153302 CA3 EAD Blazor\x00153302 CA3 EAD Blazor\_Imports.razor"
+using Syncfusion.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

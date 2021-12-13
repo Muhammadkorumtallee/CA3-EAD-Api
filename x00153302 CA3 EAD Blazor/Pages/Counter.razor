@@ -1,16 +1,143 @@
 ﻿@page "/counter"
+@using System.Runtime.Serialization
+@using Basketball_CA3_EAD.Classes
+@using Newtonsoft.Json
+@inject HttpClient Http
 
-<h1>Counter</h1>
 
-<p>Current count: @currentCount</p>
+<h3>Basketball Player</h3>
+<h3>@strfeedback</h3>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<div class="col col-sm" style="border-color:black; border-radius:10px">
+    <label for="player">Player</label>
+    <input id="player" @bind="player" />
+    <button class="btn-outline-warning" @onclick="ButtononClick">Search</button>
+</div>
+<br />
+
+@if (found)
+{
+    <div class="col-sm border rounded" style="border-color:darkgray; background-color:aqua">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Team</th>
+                    <th>City</th>
+                    <th>Divison</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Player p in data.data)
+                {
+                    <tr>
+                        <td>@p.first_name @p.last_name</td>
+                        <td>@p.position</td>
+                        <td>@p.team.full_name</td>
+                        <td>@p.team.city</td>
+                        <td>@p.team.division</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+@strfeedback
+
+<br />
+<div class="col col-sm" style="border-color:black; border-radius:10px">
+    <label for="name">Player Name</label>
+    <input id="player" @bind="nameofplayer" />
+    <label for="season">Season</label>
+    <input id="season" @bind="season" />
+    <button class="btn-outline-warning" @onclick="StatsButton">Search Stats</button>
+
+</div>
+<br />
+
+@if (foundstats)
+{
+    <div class="col-sm border rounded" style="border-color:darkgray; background-color:aqua">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Game Played</th>
+                    <th>Season</th>
+                    <th>Total Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var stats in statsdata.data)
+                {
+                    <tr>
+                        <td>@stats.games_played</td>
+                        <td>@stats.season</td>
+                        <td>@Math.Round(stats.pts * stats.games_played)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+@strfeedback
 
 @code {
-    private int currentCount = 0;
+    string strfeedback;
+    private string player;
+    private bool found;
 
-    private void IncrementCount()
+    private Player data;
+
+    private async Task ButtononClick()
     {
-        currentCount++;
+        try
+        {
+            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + player);
+            found = true;
+            strfeedback = String.Empty;
+        }
+        catch (Exception e)
+        {
+            found = false;
+            strfeedback = e.Message;
+        }
+    }
+
+    private Root root;
+    private Player getnameandid;
+    private string nameofplayer;
+    private string season;
+    int id;
+    private Root statsdata;
+    private bool foundstats;
+
+    private async Task StatsButton()
+    {
+        getnameandid = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + nameofplayer);
+
+        foreach (Player pl in getnameandid.data)
+        {
+            id = pl.id;
+        }
+
+        season = season;
+
+        Console.WriteLine(getnameandid);
+        Console.WriteLine(id);
+
+        try
+        {
+            statsdata = await Http.GetFromJsonAsync<Root>("https://www.balldontlie.io/api/v1/season_averages?season=" + season + "&player_ids[]=" + id);
+            foundstats = true;
+            strfeedback = String.Empty;
+        }
+        catch (Exception e)
+        {
+            foundstats = false;
+            strfeedback = e.Message;
+        }
+        Console.WriteLine(statsdata);
     }
 }

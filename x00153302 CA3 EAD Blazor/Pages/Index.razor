@@ -1,63 +1,53 @@
 ﻿@page "/"
 @using Basketball_CA3_EAD.Classes
+@using Syncfusion.Blazor.Grids
 @inject HttpClient Http
 
 
 <h3>Basketball Player</h3>
 <h3>@strfeedback</h3>
-
-
-<div class="col col-sm" style="border-color:black; border-radius:10px">
-    <label for="player">Player</label>
-    <input id="player" @bind="player" />
-    <button class="btn-outline-warning" @onclick="ButtononClick">Search</button>
-
-</div>
 <br />
+
+@{
+    var SearchTool = new List<string>() { "Search" };
+    var SearchColumns = new string[] { "first_name", "last_name", "position" };
+}
 
 @if (found)
 {
-    <div class="col-sm border rounded" style="border-color:darkgray; background-color:aqua">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Team</th>
-                    <th>City</th>
-                    <th>Divison</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (Player p in data.data)
-                {
-                    <tr>
-                        <td>@p.first_name @p.last_name</td>
-                        <td>@p.position</td>
-                        <td>@p.team.full_name</td>
-                        <td>@p.team.city</td>
-                        <td>@p.team.division</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+    <SfGrid DataSource="@data.data" AllowPaging="true" AllowSorting="true" Toolbar="@SearchTool">
+        <GridSearchSettings Fields="@SearchColumns">
+        </GridSearchSettings>
+        <GridPageSettings PageSize="5" PageCount="5" PageSizes="@paging"></GridPageSettings>
+        <GridSortSettings>
+            <GridSortColumns>
+                <GridSortColumn Field="First_name" Direction="SortDirection.Ascending">
+
+                </GridSortColumn>
+            </GridSortColumns>
+        </GridSortSettings>
+        <GridColumns>
+            <GridColumn Field="@nameof(data.first_name)" HeaderText="First Name"></GridColumn>
+            <GridColumn Field="@nameof(data.last_name)" HeaderText="Last Name"></GridColumn>
+            <GridColumn Field="@nameof(data.position)" HeaderText="Position"></GridColumn>
+        </GridColumns>
+    </SfGrid>
 }
 @strfeedback
 
-
 @code {
     string strfeedback;
-    private string player;
     private bool found;
 
     private Player data;
+    //paging
+    string[] paging = new string[] { "All", "5", "10", "15", "20" };
 
-    private async Task ButtononClick()
+    protected override async Task OnInitializedAsync()
     {
         try
         {
-            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players?search=" + player);
+            data = await Http.GetFromJsonAsync<Player>("https://www.balldontlie.io/api/v1/players");
             found = true;
             strfeedback = String.Empty;
         }
@@ -68,3 +58,5 @@
         }
     }
 }
+
+
